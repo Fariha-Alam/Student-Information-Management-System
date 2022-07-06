@@ -1,0 +1,68 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+#formsetting{
+    
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(image/in-class-students-high-school.jpg)  no-repeat;
+	background-size:cover;
+	}
+
+
+.img-fluid {
+	padding:5px;
+
+	box-sizing: border-box;
+	border-radius:20px; 
+}
+.main-body{
+    width:100%;
+    min-width: 0px;
+}
+.icon i{
+	width: 80px;
+	height: 80px;
+	background: white;
+	font-size: 35px;
+	color: #dc3545;
+	border-radius: 50%;
+	padding-top: 18px;
+	position: relative;
+	left: 35%;
+	bottom: 5px;
+}
+.icon i:hover{
+	font-size: 65px;
+	background: #dc3545;
+	color: white;
+}
+.sidebar{
+    width: 16rem;
+    font-size: 1.1rem;
+    font-family: tahoma;
+    transition: all 0.5s ease;
+}
+.sidebar a:hover{
+     padding-left:5px;
+     transition: all 0.5s ease;
+     background-color:#dc3545;
+     color: white;
+}
+.sidebar-heading{
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.sidebar i{
+	background-color:#dc3545;
+	border-radius: 50%;
+	color: white;
+	padding: 3px;
+	margin-right: 4px; 
+}
+@media (min-width: 300px){
+	#wrap.toggled .sidebar{
+		margin-left: -16rem; 
+	}
+}
